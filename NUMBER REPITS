@@ -1,0 +1,17 @@
+a=int(input("PLEASE ENTER FIRST NUMBER"))
+b=int(input("PLEASE ENTER FIRST NUMBER"))
+c=int(input("PLEASE ENTER FIRST NUMBER"))
+
+s=[a,b,c]
+num=0
+n=0
+for i in range(0,3):
+    if s.count(s[i])>1:
+        num=s[i]
+        n=n+1
+if num==0:
+    print("NO NUMBER REPEAT")
+else:
+    print(f"NUMBER {num} REPEATS {n} TIMES")
+    
+    
